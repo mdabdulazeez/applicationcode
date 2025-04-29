@@ -4,7 +4,7 @@ pipeline {
     environment {
         IMAGE_NAME = "backend-app"
         IMAGE_TAG = "v${BUILD_NUMBER}"
-        REGISTRY_URL = "18.116.28.147:5000"
+        REGISTRY_URL = "localhost:5000"
     }
 
     stages {
